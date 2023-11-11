@@ -1,0 +1,92 @@
+.main {
+  border: 1px blue solid;
+  height: 60vh;
+
+}
+body{
+  background-color:rgb(40, 2, 52) ;
+}
+#search{
+  width: 200px;
+  height: 30px;
+  border-radius:15px ;
+  
+}
+.button1{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding-bottom: 5px;
+}
+.button2{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding-bottom: 5px;
+}
+.search-div{
+  display: flex;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
+}
+.result{
+  display: flex;
+  flex-wrap: wrap;
+  border: white solid 1px;
+  width: 900px;
+  height: 450px;
+  border-radius:15px;
+  color: white;
+  background: rgb(40, 2, 52) ;
+  background: linear-gradient(229deg, rgba(15, 1, 1, 0.571) 29%, rgb(40, 2, 52) 71%);
+  
+}
+.result_parent{
+  display: flex;
+  justify-content: center;
+}
+.main-div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.nazvanie{
+  display: flex;
+flex-direction: column;
+
+}
+.temp_parent{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 600px;
+  width: 450px;
+}
+
+.country{
+  font-size: 2rem;
+ padding:40px 0 0 20px ;
+}
+
+
+.temp{
+  font-size: 4rem;
+  padding-bottom: 250px;
+}
+
+
+.name{
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+.wind_kph{
+padding-right: 70px;
+ 
+}
+.wind_kph_parent{
+display: flex;
+flex-direction: row;
+width: 150px;
+justify-content: center;
+}
